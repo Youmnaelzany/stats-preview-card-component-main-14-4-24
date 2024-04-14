@@ -17,7 +17,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Youmnaelzany/stats-preview-card-component-main-14-4-24.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://statspreviewcardcomponent144.netlify.app/)
 
 ### Built with
 
