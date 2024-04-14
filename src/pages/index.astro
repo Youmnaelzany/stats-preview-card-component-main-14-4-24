@@ -4,9 +4,86 @@ import "@/styles/globals.css";
 ---
 
 <Layout title="Frontend Mentor | Stats preview card component">
-  <main class="mx-6 my-[5.5rem] lg:mx-[10.31rem] lg:my-[11.06rem]">
-    <section class="w-[20.4375rem] h-[48.75rem] rounded-lg"></section>
+  <main
+    class="my-[5.5rem] mx-auto lg:my-[11.06rem] flex justify-center items-center"
+  >
+    <section
+      class="w-[20.4375rem] h-[48.75rem] rounded-lg lg:w-[69.375rem] lg:h-[27.875rem] bg-[#1B1937] flex flex-col lg:flex-row-reverse lg:justify-between"
+    >
+      <picture class="relative lg:w-[35rem] lg:h-[27.88rem]">
+        <source
+          media="(min-width:1440px)"
+          srcset="/images/image-header-desktop.jpg"
+        />
+        <div class="relative w-full h-full">
+          <img
+            src="/images/image-header-mobile.jpg"
+            alt="image-header"
+            class="w-full h-full object-cover rounded-t-lg lg:rounded-r-lg"
+          />
+          <div
+            class="absolute top-0 left-0 w-full h-full bg-[#AB5CDB] opacity-50"
+          >
+          </div>
+        </div>
+      </picture>
+      <div
+        class="px-[1.97rem] py-8 lg:pl-[4.5rem] lg:pt-[4.44rem] lg:pb-[3.69rem] lg:pr-[6rem] text-center lg:text-left"
+      >
+        <h1
+          class="w-[16.5rem] text-[#fff] text-[1.75rem] font-bold font-Inter lg-leading-[2.75rem] lg:w-[25.1875rem] leading-8 lg:text-4xl mb-4 lg:mb-[1.56rem] text-wrap"
+        >
+          Get <span class="text-[#AB5CDB]">insights </span>that help your
+          business grow.
+        </h1>
+        <p
+          class="w-[16.5rem] lg:w-[23.375rem] text-[#fff] font-Inter font-normal opacity-75 mb-10 lg:mb-[4.5rem]"
+        >
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+
+        <div
+          class="flex flex-col lg:flex-row lg:justify-between items-center justify-center lg:gap-16 gap-6"
+        >
+          <div class="flex flex-col text-center lg:text-left">
+            <h2
+              class="text-[#fff] text-2xl font-bold font-Inter leading-normal"
+            >
+              10k+
+            </h2>
+            <h3
+              class="text-[#fff] text-xs font-normal leading-[1.5625rem] tracking-[0.0625rem] uppercase opacity-60 font-Lexend-Deca"
+            >
+              Companies
+            </h3>
+          </div>
+          <div class="flex flex-col text-center lg:text-left">
+            <h2
+              class="text-[#fff] text-2xl font-bold font-Inter leading-normal"
+            >
+              314
+            </h2>
+            <h3
+              class="text-[#fff] text-xs font-normal leading-[1.5625rem] tracking-[0.0625rem] uppercase opacity-60 font-Lexend-Deca"
+            >
+              Templates
+            </h3>
+          </div>
+          <div class="flex flex-col text-center lg:text-left">
+            <h2
+              class="text-[#fff] text-2xl font-bold font-Inter leading-normal"
+            >
+              12M+
+            </h2>
+            <h3
+              class="text-[#fff] text-xs font-normal leading-[1.5625rem] tracking-[0.0625rem] uppercase opacity-60 font-Lexend-Deca"
+            >
+              Queries
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 </Layout>
-
-<style></style>
